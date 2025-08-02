@@ -23,14 +23,20 @@ const LogIn = () => {
 
 export default LogIn;
 
+
+
 const Background = styled.div`
-  background-image: url(${BG}); /* public/images ichida rasm */
+  background-image: url(${BG}); 
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
 `;
+
+
+
 
 const LoginBox = styled.div`
   background: rgba(0, 0, 0, 0.6);

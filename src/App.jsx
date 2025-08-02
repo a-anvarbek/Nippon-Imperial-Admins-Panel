@@ -1,15 +1,13 @@
-
-import './App.css'
-import LogIn from './pages/LogIn'
-import SignUp from './pages/SignUp'
+import "./App.css";
+import { BrowserRouter } from "react-router-dom"; // ✅ to'g'ri import
+import MainRoutes from "./routes/MainRoutes";
 
 function App() {
   return (
-    <>
-      <SignUp />
-      {/* <LogIn /> */}
-    </>
-  )
+    <BrowserRouter>
+      <MainRoutes /> {/* ✅ route larni chaqirish */}
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
