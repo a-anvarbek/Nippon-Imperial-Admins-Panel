@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom"; 
+import { BrowserRouter } from "react-router"; 
 import MainRoutes from "./routes/MainRoutes";
 
 function App() {
@@ -9,3 +9,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
+export default App;
